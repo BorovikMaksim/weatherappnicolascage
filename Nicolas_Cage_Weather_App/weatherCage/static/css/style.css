@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+/* стиль для фона с изображением */
+.bg-image {
+  background-image: url('images/nicolas1.jpg');
+  background-size: cover;
+  background-position: top center;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8e8ff; /* нежно-голубой цвет фона */
+}
+
+/* Установить красный цвет фона для элемента с классом "header" */
+.header {
+  background-color: #87CEFA;
+  height: 100px;
+}
+
+h1.black {
+  text-align: center;
+}
+
+.input-group {
+    margin-top: 10px;
+}
